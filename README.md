@@ -1,4 +1,4 @@
-# DreamBot Icon com.neffware.Dumper
+# DreamBot Icon Dumper
 
 This script will dump all OSRS item's icons into a directory using the DreamBot client.
 
