@@ -10,7 +10,7 @@ import org.dreambot.core.Instance;
 import java.io.File;
 import java.nio.file.Path;
 
-@ScriptManifest(category = Category.MISC, name = "com.neffware.IconDumper", author = "Neffarion", version = 1.0)
+@ScriptManifest(category = Category.MISC, name = "IconDumper", author = "Neffarion", version = 1.0)
 public final class IconDumper extends AbstractScript {
 
     private static final String DEFAULT_FOLDER = "items-icons";

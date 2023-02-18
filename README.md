@@ -17,7 +17,7 @@ First place the jar file (you can find it in the Releases page) in the Scripts f
 #### With Quickstart:
 
 ```bash
-java -Xmx512M -jar .\client.jar -script "com.neffware.IconDumper" -params "/target/directory"
+java -Xmx512M -jar .\client.jar -script "IconDumper" -params "/target/directory"
 ```
 
 #### Without Quickstart
