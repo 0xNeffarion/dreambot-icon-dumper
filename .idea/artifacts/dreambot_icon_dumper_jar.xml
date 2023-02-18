@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="dreambot-icon-dumper:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/dreambot_icon_dumper_jar</output-path>
+    <root id="archive" name="dreambot-icon-dumper.jar">
+      <element id="module-output" name="dreambot-icon-dumper" />
+    </root>
+  </artifact>
+</component>
