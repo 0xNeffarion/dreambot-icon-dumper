@@ -30,11 +30,11 @@ public class Dumper {
         this.outputFolder = outputFolder;
     }
 
-    public void execute() {
+    public boolean execute() {
         Logger.log("Output directory: " + outputFolder.getAbsolutePath());
         if (!resetDirectory(outputFolder)) {
             Logger.log("Unable to reset output directory");
-            return;
+            return false;
         }
 
         Instant start = Instant.now();
@@ -44,6 +44,8 @@ public class Dumper {
         Logger.log("Finished icons dump!");
         Logger.log("Total count: " + count);
         Logger.log("Time: " + duration.getSeconds() + " seconds");
+
+        return true;
     }
 
     private int dump(File directory) {
