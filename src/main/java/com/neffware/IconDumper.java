@@ -43,7 +43,6 @@ public final class IconDumper extends AbstractScript {
         Logger.log("Waiting for log in...");
         if(Client.isLoggedIn() && !Client.getInstance().getRandomManager().isSolving() && !run){
             run = true;
-            Sleep.sleep(5000);
             if(dumper.execute()){
                 System.exit(0);
             }

@@ -1,6 +1,7 @@
 package com.neffware;
 
 import org.dreambot.api.utilities.Logger;
+import org.dreambot.api.utilities.Sleep;
 import org.dreambot.api.wrappers.items.Item;
 
 import javax.imageio.ImageIO;
@@ -36,6 +37,9 @@ public class Dumper {
             Logger.log("Unable to reset output directory");
             return false;
         }
+
+        Logger.log("Waiting 20s for items cache to load...");
+        Sleep.sleep(20_000);
 
         Instant start = Instant.now();
         Logger.log("Starting icons dump now...");
